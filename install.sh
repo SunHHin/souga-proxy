@@ -207,5 +207,4 @@ fi
 
 echo -e "${green}开始安装${plain}"
 install_base
-install_acme
 install_soga $1
