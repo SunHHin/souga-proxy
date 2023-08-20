@@ -107,11 +107,6 @@ check_status() {
     fi
 }
 
-install_acme() {
-    curl https://ghproxy.com/https://get.acme.sh | sh
-    /root/.acme.sh/acme.sh --set-default-ca --server letsencrypt
-}
-
 install_soga() {
     cd /usr/local/
     if [[ -e /usr/local/soga/ ]]; then
